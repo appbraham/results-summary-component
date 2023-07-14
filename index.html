@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="dist/style.css">
+  <title>Frontend Mentor | Results summary component</title>
+</head>
+
+<body class="md:h-screen md:grid md:place-items-center">
+  <main class="md:flex md:gap-4 md:rounded-3xl md:shadow-2xl md:shadow-cobalt_blue/25">
+    <div
+      class="flex flex-col items-center gap-4 pt-5 pb-8 px-4 rounded-b-3xl bg-gradient-to-b from-light_slate to-light_royal md:w-72 md:py-8 md:rounded-3xl md:gap-6">
+      <p class="text-light_lavender font-medium md:text-lg">Your Result</p>
+      <div
+        class="w-24 h-24 flex flex-col items-center justify-center bg-gradient-to-b from-violet_blue to-persian_blue rounded-full
+        md:w-36 md:h-36">
+        <span class="text-4xl font-bold text-pale_blue md:text-6xl">76</span>
+        <span class="text-light_lavender text-sm pt-1 md:text-base">of 100</span>
+      </div>
+      <p class="text-pale_blue text-xl font-medium md:text-2xl">Great</p>
+      <p class="w-56 text-light_lavender text-sm text-center md:text-base">You scored higher than 65% of the people who have taken
+        these tests.</p>
+    </div>
+    <div class="flex flex-col p-4 gap-4 md:w-72 md:pr-8 md:py-8">
+      <p class="text-dark_gray font-bold md:text-lg">Sumary</p>
+      <ul class="flex flex-col font-medium gap-4">
+        <li class="flex justify-between p-3 rounded-md bg-light_red/10">
+          <span><img class="inline" src="assets/images/icon-reaction.svg" alt="Reaction"><span class="text-light_red pl-2">Reaction</span></span>
+          <span class="text-dark_gray font-bold">80<span class="opacity-50"> / 100</span></span>
+        </li>
+        <li class="flex justify-between py-2 px-3 rounded-md bg-orange_yellow/10">
+          <span><img class="inline" src="assets/images/icon-memory.svg" alt="Reaction"><span class="text-orange_yellow pl-2">Memory</span></span>
+          <span class="text-dark_gray font-bold">92<span class="opacity-50"> / 100</span></span>
+        </li>
+        <li class="flex justify-between py-2 px-3 rounded-md bg-green_teal/10">
+          <span><img class="inline" src="assets/images/icon-verbal.svg" alt="Reaction"><span class="text-green_teal pl-2">Verbal</span></span>
+          <span class="text-dark_gray font-bold">61<span class="opacity-50"> / 100</span></span>
+        </li>
+        <li class="flex justify-between py-2 px-3 rounded-md bg-cobalt_blue/10">
+          <span><img class="inline" src="assets/images/icon-visual.svg" alt="Reaction"><span class="text-cobalt_blue pl-2">Visual</span></span>
+          <span class="text-dark_gray font-bold">72<span class="opacity-50"> / 100</span></span>
+        </li>
+      </ul>
+      <button class="bg-dark_gray text-pale_blue font-medium rounded-full py-3 mt-3 hover:bg-gradient-to-b from-light_slate to-light_royal md:mt-4">Continue</button>
+    </div>
+  </main>
+
+</body>
+
+</html>
