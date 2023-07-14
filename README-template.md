@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/appbraham/huddle-landing-page.git](https://github.com/appbraham/huddle-landing-page.git)
-- Live Site URL: [https://huddle-landing-page-rose-omega.vercel.app/](https://huddle-landing-page-rose-omega.vercel.app/)
+- Solution URL: [https://github.com/appbraham/results-summary-component.git](https://github.com/appbraham/results-summary-component.git)
+- Live Site URL: [https://results-summary-component-two-ashy.vercel.app/](https://results-summary-component-two-ashy.vercel.app/)
 
 ## My process
 
